@@ -1,0 +1,14 @@
+---
+title: "hurricane"
+author: "SHehanBinu"
+date: "18/03/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r , echo=FALSE}
+summary(ext_tracks)
+```
